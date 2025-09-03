@@ -12,16 +12,26 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         th, td{
             border: 1px solid black;
             padding: 10px;
         }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #5e5e5e;
+        }
 
         thead, tfoot{
-            background-color: rgb(94, 94, 94);
+            background-color: #5e5e5e;
             color: white;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td.num{
@@ -130,13 +140,57 @@
                 <td>Piauí</td>
                 <td class="num">3.384.547</td>
             </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.220.848</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2.996.899</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.924.631</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.299.425</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">1.751.950</td>
+            </tr>
+            <tr>
+                <td>Tocantis</td>
+                <td class="num">1.586.859</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">884.372</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">806.517</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">738.772</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de Habitantes</th>
-                <td class="num"><strong>194.857.196</strong></td>
+                <td class="num"><strong>214.257.196</strong></td>
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae, magni, fuga laboriosam dolorem sed hic quibusdam alias totam possimus expedita sequi nobis harum doloribus esse unde nisi asperiores! Eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque itaque maiores fuga qui distinctio iusto sequi minima incidunt. Unde ut distinctio maxime, odio quaerat atque dolorum fuga earum ipsa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam exercitationem fugit doloremque est. Ab atque perspiciatis, nobis dolorem alias sit iure, deleniti quam omnis placeat facilis minus quia, ea ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint sit velit possimus provident, assumenda placeat beatae ea architecto nostrum facere a nulla reprehenderit repudiandae optio molestias dignissimos itaque pariatur.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae, magni, fuga laboriosam dolorem sed hic quibusdam alias totam possimus expedita sequi nobis harum doloribus esse unde nisi asperiores! Eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque itaque maiores fuga qui distinctio iusto sequi minima incidunt. Unde ut distinctio maxime, odio quaerat atque dolorum fuga earum ipsa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam exercitationem fugit doloremque est. Ab atque perspiciatis, nobis dolorem alias sit iure, deleniti quam omnis placeat facilis minus quia, ea ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint sit velit possimus provident, assumenda placeat beatae ea architecto nostrum facere a nulla reprehenderit repudiandae optio molestias dignissimos itaque pariatur.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae, magni, fuga laboriosam dolorem sed hic quibusdam alias totam possimus expedita sequi nobis harum doloribus esse unde nisi asperiores! Eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque itaque maiores fuga qui distinctio iusto sequi minima incidunt. Unde ut distinctio maxime, odio quaerat atque dolorum fuga earum ipsa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam exercitationem fugit doloremque est. Ab atque perspiciatis, nobis dolorem alias sit iure, deleniti quam omnis placeat facilis minus quia, ea ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint sit velit possimus provident, assumenda placeat beatae ea architecto nostrum facere a nulla reprehenderit repudiandae optio molestias dignissimos itaque pariatur.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae, magni, fuga laboriosam dolorem sed hic quibusdam alias totam possimus expedita sequi nobis harum doloribus esse unde nisi asperiores! Eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque itaque maiores fuga qui distinctio iusto sequi minima incidunt. Unde ut distinctio maxime, odio quaerat atque dolorum fuga earum ipsa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam exercitationem fugit doloremque est. Ab atque perspiciatis, nobis dolorem alias sit iure, deleniti quam omnis placeat facilis minus quia, ea ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint sit velit possimus provident, assumenda placeat beatae ea architecto nostrum facere a nulla reprehenderit repudiandae optio molestias dignissimos itaque pariatur.</p>
 </body>
 </html>
