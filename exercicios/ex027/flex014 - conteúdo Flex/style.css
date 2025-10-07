@@ -18,6 +18,12 @@ p, h1, h2{
     text-align: justify;
 }
 
+h1, h2{
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
 header, section.normal {
     padding: 20px;
 }
@@ -35,21 +41,35 @@ section.flex-content{
 article.text-media{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 article.media-text{
     display: flex;
     flex-flow: row wrap-reverse;
+    justify-content: space-between;
 }
 
 article > div.text{
-    flex: 1 1 480px;
+    flex: 1 1 470px;
 
-    border: 2px dashed blue;
 }
 
 article > div.media{
-    flex: 1 0 480px;
+    flex: 1 0 495px;
 
-    border: 2px dashed red;
+}
+
+div.media > img{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
+    
+    width: 85%;
 }
