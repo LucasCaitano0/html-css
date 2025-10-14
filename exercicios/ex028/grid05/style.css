@@ -16,11 +16,11 @@
 .caixa2{
     background-color: green;
 
-    grid-area: 2 / 1 / span 2 / 3;
+    grid-area: 2 / 1 / span 2 / span 2;
 }
 
 .caixa3{
     background-color: blue;
 
-    grid-area: 2 / 3 / 4 / 5;
+    grid-area: 2 / 3 / span 2 / span 2;
 }
